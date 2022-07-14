@@ -22,7 +22,7 @@ services:
   orion:
     labels:
       org.fiware: 'tutorial'
-    image: fiware/orion:$latest
+    image: fiware/orion:latest
     hostname: orion
     container_name: fiware-orion
     depends_on:
